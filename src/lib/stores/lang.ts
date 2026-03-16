@@ -9,8 +9,8 @@ const translations = { en, fr };
 // Persist language choice to localStorage
 function createLangStore() {
   const stored = typeof localStorage !== 'undefined'
-    ? (localStorage.getItem('sw237_lang') as Lang) || 'en'
-    : 'en';
+    ? (localStorage.getItem('sw237_lang') as Lang) || 'fr'
+    : 'fr';
 
   const { subscribe, set } = writable<Lang>(stored);
 
@@ -24,8 +24,8 @@ function createLangStore() {
     },
     toggle: () => {
       const current = typeof localStorage !== 'undefined'
-        ? (localStorage.getItem('sw237_lang') as Lang) || 'en'
-        : 'en';
+        ? (localStorage.getItem('sw237_lang') as Lang) || 'fr'
+        : 'fr';
       const next: Lang = current === 'en' ? 'fr' : 'en';
       if (typeof localStorage !== 'undefined') {
         localStorage.setItem('sw237_lang', next);
