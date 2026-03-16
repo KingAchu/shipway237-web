@@ -33,7 +33,7 @@
 
 <div class="login-page">
   <div class="login-card">
-    <img src="/src/lib/assets/logo.png" alt="Shipway237" class="login-logo" />
+    <img src="/logo.png" alt="Shipway237" class="login-logo" />
     <h1 class="login-title">Admin access</h1>
     <p class="login-sub">Sign in to your Shipway237 dashboard</p>
 

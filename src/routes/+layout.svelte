@@ -23,7 +23,7 @@
 <header class="sw-header">
   <div class="sw-header-inner">
     <a href="/" class="sw-logo">
-      <img src="/src/lib/assets/logo.png" alt="Shipway237" class="sw-logo-img" />
+      <img src="/logo.png" alt="Shipway237" class="sw-logo-img" />
     </a>
 
     <nav class="sw-nav">
@@ -58,7 +58,7 @@
 <footer class="sw-footer">
   <div class="sw-footer-inner">
     <div class="sw-footer-brand">
-      <img src="/src/lib/assets/logo.png" alt="Shipway237" class="sw-footer-logo" />
+      <img src="/logo.png" alt="Shipway237" class="sw-footer-logo" />
       <p>Transport & Logistics</p>
     </div>
     <div class="sw-footer-links">

@@ -46,7 +46,7 @@
 
   <aside class="admin-sidebar" class:open={sidebarOpen}>
     <div class="sidebar-logo">
-      <img src="/src/lib/assets/logo.png" alt="Shipway237" style="height: 36px; width: auto;" />
+      <img src="/logo.png" alt="Shipway237" style="height: 36px; width: auto;" />
       <span class="sidebar-badge">Admin</span>
     </div>
 
